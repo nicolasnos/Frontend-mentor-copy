@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+
+* {
+  --normal-font: "League Spartan", sans-serif;
+  --semibold-font: "League Spartan", sans-serif;
+  --bold-font: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+}
