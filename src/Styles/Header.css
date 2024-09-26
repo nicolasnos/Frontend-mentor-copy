@@ -24,3 +24,33 @@ ul li a:hover {
   text-decoration: underline;
   transition: 0.7s;
 }
+
+@media (max-width: 425px) {
+  .mobileHeader {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 20px;
+  }
+  .mobileHeader .mainTitle {
+    width: 60%;
+  }
+
+  .mobileMenu {
+    position: absolute;
+    top: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .mobileMenu button {
+    border: 0;
+  }
+  .mobileMenu a {
+    color: black;
+  }
+}

@@ -7,8 +7,10 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Header />
-    <Slider />
-    <Footer />
+    <div className="app">
+      <Header />
+      <Slider />
+      <Footer />
+    </div>
   </StrictMode>
 );

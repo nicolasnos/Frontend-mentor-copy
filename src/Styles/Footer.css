@@ -16,4 +16,36 @@ footer img {
   width: 60%;
   margin: 0 auto;
   align-content: center;
+  font-family: var(--normal-font);
+}
+
+.text p {
+  color: hsl(0, 0%, 63%);
+}
+
+@media (max-width: 426px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 270px;
+  }
+  .footer img {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .text h2 {
+    margin: 20px auto;
+    letter-spacing: 2px;
+  }
+  .text p {
+    line-height: 20px;
+  }
 }

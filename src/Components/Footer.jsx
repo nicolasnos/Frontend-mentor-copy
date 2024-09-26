@@ -5,8 +5,8 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <img src={LeftImage} alt="imagen de sillon" />
+    <footer className="footer">
+      <img src={LeftImage} alt="couchImage" />
       <div className="text">
         <h2>ABOUT OUR FURNITURE</h2>
         <p>
@@ -18,7 +18,7 @@ const Footer = () => {
           dream space.
         </p>
       </div>
-      <img src={Right} alt="imagen de sillon" />
+      <img src={Right} alt="couchImage" />
     </footer>
   );
 };
