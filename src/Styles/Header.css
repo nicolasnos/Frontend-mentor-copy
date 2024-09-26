@@ -30,7 +30,10 @@ ul li a:hover {
     display: flex;
     width: 100%;
     text-align: center;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 0px;
+  }
+  .mobileHeader img {
+    padding-left: 15px;
   }
   .mobileHeader .mainTitle {
     width: 60%;
