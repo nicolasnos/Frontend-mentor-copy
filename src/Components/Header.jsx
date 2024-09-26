@@ -12,7 +12,7 @@ const Header = () => {
   ];
   const [menu, setMenu] = useState(false);
 
-  return window.screen.width <= 425 ? (
+  return window.screen.width <= 820 ? (
     <header className="mobileHeader">
       <img
         src={HamburguerLogo}

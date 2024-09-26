@@ -73,6 +73,23 @@
   transition: 300ms;
 }
 
+@media (max-width: 820px) {
+  .topPage {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .slider-container {
+    width: 100%;
+  }
+
+  .description {
+    margin: 45px auto;
+    width: 90%;
+  }
+}
+
 @media (max-width: 425px) {
   .topPage {
     width: 100vw;

@@ -25,7 +25,7 @@ ul li a:hover {
   transition: 0.7s;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 820px) {
   .mobileHeader {
     display: flex;
     width: 100%;
